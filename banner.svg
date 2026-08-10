@@ -144,7 +144,7 @@
       </text>
     </g>
 
-    <!-- Cycling Typed Role Titles (Extra tall window to prevent OS font clipping) -->
+    <!-- Cycling Typed Role Titles -->
     <g transform="translate(60, 220)">
       <rect x="-10" y="-35" width="600" height="80" fill="none"/>
       <text class="text-mono" font-size="28" fill="#60a5fa" font-weight="600">
@@ -214,7 +214,7 @@
       </text>
     </g>
 
-    <!-- Code Editor Card (JSX Snippet Typing) -->
+    <!-- Code Editor Card -->
     <g transform="translate(680, 80)">
       <rect width="540" height="420" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
       <!-- Window Buttons -->
@@ -239,9 +239,8 @@
       </g>
     </g>
 
-    <!-- Animated Cat Head (Smooth Left-to-Right Shake) -->
+    <!-- Animated Cat Head -->
     <g transform="translate(900, 520)">
-      <!-- Cat Head Container with Shake Animation -->
       <g>
         <animateTransform attributeName="transform" type="rotate" values="-8 0 80; 8 0 80; -8 0 80" dur="3s" repeatCount="indefinite" ease="sine-in-out"/>
         
