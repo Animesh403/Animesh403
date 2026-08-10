@@ -1,1 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 140" width="100%" height="100%">
+  <style>
+    .bg-card { fill: #0f172a; stroke: #1e293b; stroke-width: 1.5px; rx: 10px; }
+    .text-title { font-family: sans-serif; font-size: 13px; font-weight: bold; fill: #ffffff; }
+    .text-rank { font-family: monospace; font-size: 11px; fill: #f59e0b; font-weight: bold; }
+    
+    @keyframes trophyPop {
+      0% { transform: scale(0.8); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+    .trophy-cell { animation: trophyPop 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards; }
+  </style>
+
+  <!-- Trophy 1 -->
+  <g class="trophy-cell" transform="translate(10, 10)">
+    <rect width="205" height="120" class="bg-card"/>
+    <text x="102" y="35" text-anchor="middle" font-size="32">🏆</text>
+    <text x="102" y="75" text-anchor="middle" class="text-title">Commits Master</text>
+    <text x="102" y="98" text-anchor="middle" class="text-rank">MAX STREAK</text>
+  </g>
+
+  <!-- Trophy 2 -->
+  <g class="trophy-cell" transform="translate(230, 10)" style="animation-delay: 0.15s;">
+    <rect width="205" height="120" class="bg-card"/>
+    <text x="102" y="35" text-anchor="middle" font-size="32">🚀</text>
+    <text x="102" y="75" text-anchor="middle" class="text-title">n8n Automator</text>
+    <text x="102" y="98" text-anchor="middle" class="text-rank">GOLD RANK</text>
+  </g>
+
+  <!-- Trophy 3 -->
+  <g class="trophy-cell" transform="translate(450, 10)" style="animation-delay: 0.3s;">
+    <rect width="205" height="120" class="bg-card"/>
+    <text x="102" y="35" text-anchor="middle" font-size="32">🤖</text>
+    <text x="102" y="75" text-anchor="middle" class="text-title">Data Specialist</text>
+    <text x="102" y="98" text-anchor="middle" class="text-rank">EXPERT</text>
+  </g>
+
+  <!-- Trophy 4 -->
+  <g class="trophy-cell" transform="translate(670, 10)" style="animation-delay: 0.45s;">
+    <rect width="205" height="120" class="bg-card"/>
+    <text x="102" y="35" text-anchor="middle" font-size="32">🐱</text>
+    <text x="102" y="75" text-anchor="middle" class="text-title">Cat Whisperer</text>
+    <text x="102" y="98" text-anchor="middle" class="text-rank">LEGENDARY</text>
+  </g>
+</svg>
 
