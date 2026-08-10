@@ -16,8 +16,9 @@
       <stop offset="100%" stop-color="transparent"/>
     </linearGradient>
 
+    <!-- Corrected the ClipPath to center it on the avatar's new position -->
     <clipPath id="avatar-clip">
-      <circle cx="250" cy="270" r="50"/>
+      <circle cx="120" cy="105" r="50"/>
     </clipPath>
   </defs>
 
@@ -77,15 +78,18 @@
       <!-- Glowing Avatar Ring -->
       <circle cx="120" cy="105" r="54" fill="none" stroke="#ff007f" stroke-width="3"/>
 
-      <!-- Cat Vector Avatar -->
+      <!-- USER IMAGE INSERTION -->
       <g clip-path="url(#avatar-clip)">
-        <rect x="170" y="220" width="100" height="100" fill="#1e293b"/>
-        <!-- Simple Cat Representation inside Badge -->
-        <circle cx="250" cy="270" r="35" fill="#0f172a"/>
-        <ellipse cx="240" cy="265" rx="6" ry="8" fill="#facc15"/>
-        <ellipse cx="260" cy="265" rx="6" ry="8" fill="#facc15"/>
-        <polygon points="248,275 252,275 250,278" fill="#f43f5e"/>
+        <image 
+            x="65" 
+            y="50" 
+            width="110" 
+            height="110" 
+            href="https://avatars.githubusercontent.com/u/190188494?v=4" 
+            preserveAspectRatio="xMidYMid slice" 
+        />
       </g>
+      <!-- END USER IMAGE INSERTION -->
 
       <!-- Badge Info Text -->
       <text class="text-sans" x="120" y="190" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">Animesh Behera</text>
@@ -114,4 +118,3 @@
     </g>
   </g>
 </svg>
-
