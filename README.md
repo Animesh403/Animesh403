@@ -9,48 +9,16 @@
 
   <br><br>
 
-  <!-- Side-by-Side: Lanyard + Featured Projects -->
-  <table border="0" style="border-collapse: collapse; border: none;">
-    <tr>
-      <!-- Left Column: Lanyard -->
-      <td align="center" valign="middle" width="40%" style="border: none;">
-        <img src="lanyard.svg?v=1" alt="Animesh Behera Lanyard" width="380">
-      </td>
-      
-      <!-- Right Column: Featured Projects -->
-      <td valign="top" width="60%" style="border: none;">
-        <h3 align="center">🚀 Featured Projects</h3>
-        <table width="100%">
-          <thead>
-            <tr>
-              <th align="left">Project</th>
-              <th align="left">Tech Stack</th>
-              <th align="center">Link</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><b>n8n Workflow Engine</b></td>
-              <td><code>n8n</code> <code>Python</code> <code>APIs</code></td>
-              <td align="center"><a href="https://github.com/Animesh403">View</a></td>
-            </tr>
-            <tr>
-              <td><b>OSINT Tracker</b></td>
-              <td><code>Python</code> <code>OSINT</code></td>
-              <td align="center"><a href="https://github.com/Animesh403">View</a></td>
-            </tr>
-            <tr>
-              <td><b>Data Science Suite</b></td>
-              <td><code>Python</code> <code>C++</code></td>
-              <td align="center"><a href="https://github.com/Animesh403">View</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  </table>
+</div>
 
-  <br>
+<!-- Side-by-Side Section -->
+| 📇 Interactive Badge | 🚀 Featured Projects |
+| :---: | :--- |
+| <img src="lanyard.svg?v=1" alt="Animesh Behera Lanyard" width="300"> | **n8n Workflow Automation Engine**<br><sub>`n8n` `Python` `APIs`</sub><br>Custom node extensions & autonomous workflows.<br>[👉 View Code](https://github.com/Animesh403)<br><br>**OSINT Intelligence Tracker**<br><sub>`Python` `OSINT` `Android`</sub><br>Automated intelligence collection utility.<br>[👉 View Code](https://github.com/Animesh403)<br><br>**Data Science Analytics Suite**<br><sub>`Python` `Data Science` `C++`</sub><br>High-performance predictive modeling pipeline.<br>[👉 View Code](https://github.com/Animesh403) |
+
+<br>
+
+<div align="center">
 
   <!-- Connect & Social Badges -->
   <p align="center">
