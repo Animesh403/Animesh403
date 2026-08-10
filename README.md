@@ -9,17 +9,14 @@
 
   <br><br>
 
-  <!-- Side-by-Side Card Layout (Middle Vertically & Centered Horizontally) -->
+  <!-- Side-by-Side Card Layout -->
   <table align="center">
     <tr>
-      <!-- Left Column: Lanyard -->
       <td align="center" valign="middle" width="45%">
         <img src="lanyard.svg?v=1" alt="Animesh Behera Lanyard" width="380">
         <br>
         <sub><em>– drag me... just kidding, I'm an SVG 🐾 –</em></sub>
       </td>
-
-      <!-- Right Column: Featured Projects (Middle Aligned) -->
       <td align="center" valign="middle" width="55%">
         <h3>🚀 Featured Projects</h3>
         <table align="center">
@@ -54,9 +51,7 @@
           </tbody>
         </table>
         <br>
-        <blockquote>
-          💬 <em>"I don't just write code, I automate the future."</em>
-        </blockquote>
+        <blockquote>💬 <em>"I don't just write code, I automate the future."</em></blockquote>
       </td>
     </tr>
   </table>
