@@ -127,6 +127,7 @@
     <!-- Vectorized Script Name (Vector Outlines) -->
     <!-- Name Block (Shifted up slightly & line-height adjusted) -->
 <g transform="translate(60, 100)">
+  <rect x="-10" y="-35" width="600" height="80" fill="none"/>
   <text font-family="'Brush Script MT', 'cursive', sans-serif" font-size="72" font-weight="bold" fill="url(#name-grad)">
     <tspan class="char" style="animation-delay: 0.1s;">A</tspan>
     <tspan class="char" style="animation-delay: 0.2s;">n</tspan>
