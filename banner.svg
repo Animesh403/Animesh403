@@ -141,6 +141,8 @@
         <tspan class="char" style="animation-delay: 1.2s;">e</tspan>
         <tspan class="char" style="animation-delay: 1.3s;">r</tspan>
         <tspan class="char" style="animation-delay: 1.4s;">a</tspan>
+        <tspan class="char" style="animation-delay: 0.1 s;"> </tspan>
+        <tspan class="char" style="animation-delay: 0.1s;"> </tspan>
       </text>
     </g>
 
