@@ -9,10 +9,48 @@
 
   <br><br>
 
-  <!-- Animated Interactive Lanyard -->
-  <img src="lanyard.svg?v=1" alt="Animesh Behera Lanyard" width="450">
+  <!-- Side-by-Side: Lanyard + Featured Projects -->
+  <table border="0" style="border-collapse: collapse; border: none;">
+    <tr>
+      <!-- Left Column: Lanyard -->
+      <td align="center" valign="middle" width="40%" style="border: none;">
+        <img src="lanyard.svg?v=1" alt="Animesh Behera Lanyard" width="380">
+      </td>
+      
+      <!-- Right Column: Featured Projects -->
+      <td valign="top" width="60%" style="border: none;">
+        <h3 align="center">🚀 Featured Projects</h3>
+        <table width="100%">
+          <thead>
+            <tr>
+              <th align="left">Project</th>
+              <th align="left">Tech Stack</th>
+              <th align="center">Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>n8n Workflow Engine</b></td>
+              <td><code>n8n</code> <code>Python</code> <code>APIs</code></td>
+              <td align="center"><a href="https://github.com/Animesh403">View</a></td>
+            </tr>
+            <tr>
+              <td><b>OSINT Tracker</b></td>
+              <td><code>Python</code> <code>OSINT</code></td>
+              <td align="center"><a href="https://github.com/Animesh403">View</a></td>
+            </tr>
+            <tr>
+              <td><b>Data Science Suite</b></td>
+              <td><code>Python</code> <code>C++</code></td>
+              <td align="center"><a href="https://github.com/Animesh403">View</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </table>
 
-  <br><br>
+  <br>
 
   <!-- Connect & Social Badges -->
   <p align="center">
@@ -44,16 +82,6 @@
   <p align="center">
     <img src="trophies.svg?v=1" alt="GitHub Trophies" width="97%">
   </p>
-
-  <hr width="80%">
-
-  ## 🚀 Featured Projects
-
-  | Project | Tech Stack | Description | Link |
-  | :--- | :--- | :--- | :---: |
-  | **n8n Workflow Automation Engine** | `n8n` `Python` `APIs` | Custom node extensions and autonomous AI workflows | [View Code](https://github.com/Animesh403) |
-  | **OSINT Intelligence Tracker** | `Python` `OSINT` `Android` | Automated intelligence collection and mapping utility | [View Code](https://github.com/Animesh403) |
-  | **Data Science Analytics Suite** | `Python` `Data Science` `C++` | High-performance predictive modeling and data visualization pipeline | [View Code](https://github.com/Animesh403) |
 
   <hr width="80%">
 
