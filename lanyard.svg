@@ -16,13 +16,50 @@
       <stop offset="100%" stop-color="transparent"/>
     </linearGradient>
 
-    <!-- Corrected the ClipPath to center it on the avatar's new position -->
     <clipPath id="avatar-clip">
       <circle cx="120" cy="105" r="50"/>
     </clipPath>
+
+    <!-- Dark Blue Cat Paw Symbol Definition -->
+    <g id="cat-paw-bg" fill="#1e293b" opacity="0.6">
+      <ellipse cx="0" cy="4" rx="9" ry="7" />
+      <circle cx="-9" cy="-5" r="3.5" />
+      <circle cx="-3" cy="-9" r="3.5" />
+      <circle cx="3" cy="-9" r="3.5" />
+      <circle cx="9" cy="-5" r="3.5" />
+    </g>
+
+    <!-- Glowing Heart Symbol -->
+    <path id="bg-heart" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#ff007f" opacity="0.7"/>
+
+    <!-- Sparkle Symbol -->
+    <path id="bg-sparkle" d="M10 0 L13 7 L20 10 L13 13 L10 20 L7 13 L0 10 L7 7 Z" fill="#38bdf8" opacity="0.6"/>
   </defs>
 
   <style>
+    /* Background Elements Animations */
+    @keyframes floatPaws {
+      0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.3; }
+      50% { transform: translateY(-12px) rotate(6deg); opacity: 0.7; }
+    }
+    
+    @keyframes pulseHeart {
+      0%, 100% { transform: scale(1); opacity: 0.5; }
+      50% { transform: scale(1.18); opacity: 0.9; }
+    }
+
+    @keyframes sparkleGlow {
+      0%, 100% { transform: scale(0.8) rotate(0deg); opacity: 0.3; }
+      50% { transform: scale(1.2) rotate(45deg); opacity: 0.8; }
+    }
+
+    .anim-paw-1 { animation: floatPaws 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .anim-paw-2 { animation: floatPaws 5s ease-in-out 1s infinite; transform-box: fill-box; transform-origin: center; }
+    .anim-paw-3 { animation: floatPaws 4.5s ease-in-out 2s infinite; transform-box: fill-box; transform-origin: center; }
+    .anim-heart-1 { animation: pulseHeart 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .anim-heart-2 { animation: pulseHeart 3.5s ease-in-out 1.5s infinite; transform-box: fill-box; transform-origin: center; }
+    .anim-sparkle { animation: sparkleGlow 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+
     /* Pendulum Swinging Physics Animation */
     @keyframes lanyardSwing {
       0% { transform: rotate(-15deg); }
@@ -52,6 +89,24 @@
     .text-mono { font-family: monospace; }
     .text-sans { font-family: sans-serif; }
   </style>
+
+  <!-- BACKGROUND ANIMATED DECORATIONS (Paws, Hearts, Sparkles) -->
+  <g class="background-decorations">
+    <!-- Dark Blue Cat Paws -->
+    <use href="#cat-paw-bg" x="80" y="200" class="anim-paw-1" transform="scale(1.5)"/>
+    <use href="#cat-paw-bg" x="380" y="140" class="anim-paw-2" transform="scale(1.8) rotate(-15 380 140)"/>
+    <use href="#cat-paw-bg" x="60" y="480" class="anim-paw-3" transform="scale(1.6) rotate(20 60 480)"/>
+    <use href="#cat-paw-bg" x="410" y="450" class="anim-paw-1" transform="scale(1.4) rotate(-10 410 450)"/>
+
+    <!-- Glowing Pink Hearts -->
+    <use href="#bg-heart" x="390" y="320" class="anim-heart-1" transform="scale(1.4)"/>
+    <use href="#bg-heart" x="70" y="310" class="anim-heart-2" transform="scale(0.9)"/>
+
+    <!-- Blue Sparkles -->
+    <use href="#bg-sparkle" x="90" y="150" class="anim-sparkle"/>
+    <use href="#bg-sparkle" x="390" y="240" class="anim-sparkle" style="animation-delay: 1s;"/>
+    <use href="#bg-sparkle" x="430" y="400" class="anim-sparkle" style="animation-delay: 0.5s;"/>
+  </g>
 
   <!-- Entire Assembly Suspended from Top Center -->
   <g class="lanyard-assembly">
