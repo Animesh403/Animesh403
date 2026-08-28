@@ -15,7 +15,7 @@
       <td align="center" valign="middle" width="45%">
         <img src="lanyard.svg?v=1" alt="Animesh Behera Lanyard" width="380">
         <br>
-        <sub><em>– drag me... just kidding, I'm an SVG 🐾 –</em></sub>
+        <sub><em></em></sub>
       </td>
       <td align="center" valign="middle" width="55%">
         <h3>🚀 Featured Projects</h3>
